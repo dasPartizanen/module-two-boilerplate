@@ -5,14 +5,18 @@
   </head>
 
 <body class="js-body">
-
-      <div class="search">
-        <input id="username" type="search" placeholder="search for username" name="search" value="">
-        <button id="search" type="button" name="button">Search</button>
+    <div class="search">
+        <form class="form-inline">
+            <div class="form-group">
+                <label class="sr-only" for="username">Email address</label>
+                <input class="form-control" id="username" type="search" placeholder="search for username" name="search" value="">
+            </div>
+            <button class="btn btn-success" id="search" type="button" name="button">Search</button>
+        </form>
       </div>
-      <div id="info" style="display: flex; align-items: baseline;">
-        <ul id="search-results" class="search-results"></ul>
-        <div id="userProfile" style="border: 1px #000 solid; padding: 20px;"></div>
+      <div class="row" id="info" >
+          <div class="col-xs-6" id="search-results"></div>
+          <div class="col-xs-6" id="userProfile"></div>
       </div>
 </body>
 </html>

@@ -2,8 +2,9 @@ body {
   font-family: verdana;
   background-color: #fafafa;
 }
-#search {
-  /* padding-bottom: 40px; */
+.search {
+  padding: 30px;
+  text-align: center;
 }
 
 .search_field {
@@ -20,4 +21,15 @@ body {
 
 .search-results_item {
     margin: 8px 0 0;
+}
+
+.results {
+  padding-left: 30px;
+}
+
+.results_item {
+  margin-bottom: 3px;
+}
+.results_item:last-child {
+  margin-bottom: 0;
 }
